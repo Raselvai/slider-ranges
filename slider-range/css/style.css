@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+.slider_wrapper {
+	width: 100%;
+	height: 100vh;
+	padding: 300px 0;
+	background: radial-gradient( circle farthest-corner at 10% 20%, rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+}
+
+
+.ui-widget.ui-widget-content {
+    border: 1px solid transparent;
+    width: 400px;
+    height: 10px;
+    margin: 0 auto;
+    background: #10393b;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    top: -0.4em;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid transparent;
+    background: #ff8a43;
+    font-weight: normal;
+    color: #454545;
+}
+
+.ui-slider .ui-slider-range {
+    background: #ff8a43;
+}
+
+.text_center {
+	text-align: center;
+}
+
+.head_text {
+	font-size: 40px;
+	font-weight: 700;
+	color: #ffffff;
+	margin-bottom: 40px;
+}
